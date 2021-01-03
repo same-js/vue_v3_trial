@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>Vue.js</title>
+    </head>
+    <body>
+        <!-- Vue.js -->
+        <div id="list-rendering">
+            <ol>
+                <li v-for="todo in todos">
+                    {{ todo.text }}
+                </li>
+            </ol>
+        </div>
+        <!-- /Vue.js -->
+        <script src="https://unpkg.com/vue@next"></script>
+        <script type="text/javascript" src="main.js"></script>
+    </body>
+</html>
